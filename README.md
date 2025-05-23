@@ -1,6 +1,4 @@
-# hojuix-newlib
-## A newlib port to hojuix for use in userspace programs
+# hojuix-libc
+## Stuff relating to Hojuix's LibC
 
-# Version
-The version of newlib that this is based off is ```newlib 4.1.0```
-
+This will eventually be the place of an ```mlibc``` port
