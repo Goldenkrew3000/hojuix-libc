@@ -3,3 +3,9 @@
 ## Info
 Currently, Hojuix uses Newlib (latest version) as a libc for (a) learning how to port an external libc, (b) preparing the kernel for a more fully-equipped libc, and (c) adding an initial set of syscalls that are POSIX compliant. Eventually, mlibc will be used.
 
+## Versions
+Current Software Versions: <br>
+- ```Binutils 2.45```<br>
+- ```GCC 15.2.0```<br>
+- ```Autoconf 2.69```<br>
+- ```Automake 1.15.1```<br>
