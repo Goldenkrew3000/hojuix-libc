@@ -446,6 +446,7 @@ case ${generic_target} in
   *-*-solaris*)				fmt=elf em=solaris ;;
   *-*-aros*)				fmt=elf em=linux ;;
   *-*-vxworks* | *-*-windiss)		fmt=elf em=vxworks ;;
+  i386-*-hojuix*)		fmt=elf ;;
 esac
 
 case ${cpu_type} in

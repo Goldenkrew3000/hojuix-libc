@@ -2149,7 +2149,8 @@ case $os in
 	| xenix* \
 	| xray* \
 	| zephyr* \
-	| zvmoe* )
+	| zvmoe* \
+	| hojuix* )
 		;;
 	# This one is extra strict with allowed versions
 	sco3.2v2 | sco3.2v[4-9]* | sco5v6*)
