@@ -17,6 +17,7 @@ m4_foreach_w([SYS_DIR], [
   epiphany
   h8300hms h8500hms
   m88kbug mmixware
+  hojuix
   netware
   or1k
   rdos rtems
@@ -48,6 +49,7 @@ m4_foreach_w([MACHINE], [
   epiphany
   fr30 frv ft32
   h8300 h8500 hppa
+  hojuix
   i386 i960 iq2000
   lm32
   m32c m32r m68hc11 m68k m88k mep microblaze mips mn10200 mn10300 moxie msp430 mt
