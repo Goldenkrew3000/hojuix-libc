@@ -801,6 +801,13 @@ case ${target} in
     "" | yes | posix) thread_file='posix' ;;
   esac
   ;;
+*-*-hojuix*)
+  extra_options="$extra_options gnu-user.opt"
+  gas=yes
+  gnu_ld=yes
+  default_use_cxa_atexit=yes
+  use_gcc_stdint=provide
+  ;;
 *-*-dragonfly*)
   gas=yes
   gnu_ld=yes
@@ -1229,6 +1236,12 @@ aarch64*-*-freebsd*)
 	tm_file="${tm_file} aarch64/aarch64-elf.h aarch64/aarch64-errata.h aarch64/aarch64-freebsd.h"
 	tmake_file="${tmake_file} aarch64/t-aarch64 aarch64/t-aarch64-freebsd"
 	tm_defines="${tm_defines}  TARGET_DEFAULT_ASYNC_UNWIND_TABLES=1"
+	;;
+i[34567]86-*-hojuix*)
+	tm_file="${tm_file} i386/unix.h i386/att.h elfos.h glibc-stdint.h i386/i386elf.h hojuix.h"
+	;;
+x86_64-*-hojuix*)
+	tm_file="${tm_file} i386/unix.h i386/att.h elfos.h glibc-stdint.h i386/i386elf.h i386/x86-64.h hojuix.h"
 	;;
 aarch64*-*-netbsd*)
 	tm_file="${tm_file} elfos.h ${nbsd_tm_file}"

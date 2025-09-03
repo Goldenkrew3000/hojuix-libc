@@ -9,3 +9,6 @@ Current Software Versions: <br>
 - ```GCC 15.2.0```<br>
 - ```Autoconf 2.69```<br>
 - ```Automake 1.15.1```<br>
+
+## Information
+GCC/Binutils Triple Target: ```x86_64-hojuix```<br>
